@@ -1,6 +1,7 @@
 @import url(fontawesome-all.min.css);
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300italic,600italic,300,600");
 
+@import url("rodomosinfo.css");
 body{
     background-image: url(../resources/bg.jpg); 
     background-size: cover;
@@ -17,6 +18,7 @@ body{
   header {
     color: #fff;
     padding: 2em 0;
+    background-color: rgba(0,0,0,0.5);
   }
   .inner {
     max-width: 60em;
@@ -39,6 +41,10 @@ body{
   .inner a {
     color: #fff;
   }
+  .inner a:hover {
+    color: gray;
+  }
+
   .logo {
     display: block;
     width: 40px;
@@ -66,32 +72,61 @@ body{
     margin: 0 0 1.5em 0;
   }
 
-  nav {
+nav{
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 1em 0;
-    
-  }
-  nav ul {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    list-style: none;
-    margin: 0;
-  }
-  nav ul li {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: 1px solid #fff;
-    padding: 0.5em 2em;
-  }
-  nav ul li a {
+    padding: 0 10px;
+}
+button{
+    background-color: rgba(0,0,0,0.5);
     color: #fff;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-size: 0.8em;
-    letter-spacing: 1px;
-  }
+    border: 1px solid #fff;
+    padding: 0 10px;
+    font-size: 0.8rem;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    width: 150px;
+    height: 50px;
+}
+button:hover{
+    background-color: gray;
+}
 
+@media screen and (max-width: 768px) {
+    .inner {
+        padding: 0 1em;
+    }
+    .inner h1 {
+        font-size: 2em;
+    }
+    .inner p {
+        margin: 0 0 1em 0;
+    }
+    .inner .actions {
+        flex-direction: column;
+    }
+    .inner .actions li {
+        width: 100%;
+        margin: 0 0 1em 0;
+    }
+    .inner .actions li input {
+        width: 100%;
+    }
+    .content {
+        padding: 0 1em;
+    }
+    nav{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0 10px;
+
+    }
+    #header > nav > button{
+       width: 100%;
+    }
+
+}

@@ -150,7 +150,7 @@ button:hover{
 #contact > button:hover{
  rotate: 90deg;
 }
-/*make #contact > button near class='something'*/
+
 #contact > button{
   position: absolute;
   top: 0;

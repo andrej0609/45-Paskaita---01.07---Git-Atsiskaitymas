@@ -1,6 +1,7 @@
 @import url(fontawesome-all.min.css);
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300italic,600italic,300,600");
 
+@import url("./rodomosinfo.css");
 body{
     background-image: url(../resources/bg.jpg); 
     background-size: cover;
@@ -95,3 +96,16 @@ body{
     letter-spacing: 1px;
   }
 
+  nav ul li:hover {
+    background-color: gray
+  }
+
+  button {
+  background-color: none;
+    border: none;
+
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 0.8em;
+    letter-spacing: 1px;
+    }

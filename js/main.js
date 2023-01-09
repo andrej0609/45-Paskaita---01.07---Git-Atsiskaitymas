@@ -40,7 +40,7 @@ document.getElementById("intro").style.display = "none";
 
 
       var close = document.createElement("button");
-      close.innerHTML = "Close";
+      close.innerHTML = "";
       document.getElementById("intro").appendChild(close);
 
       document.querySelectorAll("button")[4].addEventListener("click", function() {
@@ -50,7 +50,7 @@ document.getElementById("intro").style.display = "none";
 
 
       var close = document.createElement("button");
-      close.innerHTML = "Close";
+      close.innerHTML = "";
       document.getElementById("work").appendChild(close);
       
  
@@ -61,7 +61,7 @@ document.getElementById("intro").style.display = "none";
 
 
       var close = document.createElement("button");
-      close.innerHTML = "Close";
+      close.innerHTML = "";
       document.getElementById("about").appendChild(close);
 
       document.querySelectorAll("button")[6].addEventListener("click", function() {
@@ -70,7 +70,7 @@ document.getElementById("intro").style.display = "none";
       });
 
       var close = document.createElement("button");
-      close.innerHTML = "Close";
+      close.innerHTML = "";
       document.getElementById("contact").appendChild(close);
 
 

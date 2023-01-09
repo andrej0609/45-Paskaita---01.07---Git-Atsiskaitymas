@@ -140,14 +140,4 @@ article {
 
 p{
   color : #fff;
-}
 
-@media screen and (max-width: 768px) {
-  .field {
-    width: 100%;
-  }
-  .actions li {
-    width: 100%;
-  }
-}
-  

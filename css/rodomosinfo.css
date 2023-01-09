@@ -1,5 +1,6 @@
 #intro {
   background-color: #1c2125;
+  margin-top: 50px;
 }
 
 #intro>span>video {
@@ -30,6 +31,7 @@ article {
 
 #work {
   background-color: #1c2125;
+  margin-top: 50px;
 }
 
 #work>span>img {
@@ -42,6 +44,7 @@ article {
 
 #about {
   background-color: #1c2125;
+  margin-top: 50px;
 }
 
 #about>span>img {
@@ -54,6 +57,7 @@ article {
 
 #contact {
   background-color: #1c2125;
+  margin-top: 50px;
 }
 
 #contact>span>img {

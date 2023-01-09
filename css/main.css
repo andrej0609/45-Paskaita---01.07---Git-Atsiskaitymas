@@ -93,7 +93,63 @@ button{
 button:hover{
     background-color: gray;
 }
+#intro > button{
+  background-image: url(../resources/xmark-solid.svg);
+  background-color: rgba(0,0,0,0.5);
+  width: 30px;
+  border: none;
+  height: 30px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  
+}
+#intro > button:hover{
+ rotate: 90deg;
+}
 
+#work > button{
+  background-image: url(../resources/xmark-solid.svg);
+  background-color: rgba(0,0,0,0.5);
+  width: 30px;
+  border: none;
+  height: 30px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  
+}
+#work > button:hover{
+ rotate: 90deg;
+}
+#about > button{
+  background-image: url(../resources/xmark-solid.svg);
+  background-color: rgba(0,0,0,0.5);
+  width: 30px;
+  border: none;
+  height: 30px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  
+}
+#about > button:hover{
+ rotate: 90deg;
+}
+#contact > button{
+  background-image: url(../resources/xmark-solid.svg);
+  background-color: rgba(0,0,0,0.5);
+  width: 30px;
+  border: none;
+  height: 30px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  
+}
+#contact > button:hover{
+ rotate: 90deg;
+}
 @media screen and (max-width: 768px) {
     .inner {
         padding: 0 1em;

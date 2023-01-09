@@ -177,6 +177,20 @@ button:hover{
   right: 0;
   margin: 10px;
 }
+.vertLine{
+  border-left: 1px solid #fff;
+  height: 32px;
+  position: absolute;
+  left: 50%;
+  top: 120px;
+}
+.vertLine2{
+  border-left: 1px solid #fff;
+  height: 32px;
+  position: absolute;
+  left: 50%;
+  top: 338px;
+}
 @media screen and (max-width: 768px) {
     .inner {
         padding: 0 1em;
@@ -212,4 +226,11 @@ button:hover{
        width: 100%;
     }
 
+    .vertLine2{
+      border-left: 1px solid #fff;
+      height: 32px;
+      position: absolute;
+      left: 50%;
+      top: 330px;
+    }
 }

@@ -150,6 +150,33 @@ button:hover{
 #contact > button:hover{
  rotate: 90deg;
 }
+/*make #contact > button near class='something'*/
+#contact > button{
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 10px;
+}
+#intro > button{
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 10px;
+}
+
+#work > button{
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 10px;
+}
+
+#about > button{
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 10px;
+}
 @media screen and (max-width: 768px) {
     .inner {
         padding: 0 1em;
